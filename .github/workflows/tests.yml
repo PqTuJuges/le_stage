@@ -44,7 +44,7 @@ jobs:
 
       - name: Commit fixed files
         if: github.event_name == 'pull_request'
-        uses: stefanzweifel/git-auto-commit-action@v6
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Fixes coding style"
           file_pattern: app bootstrap config database resources routes tests
