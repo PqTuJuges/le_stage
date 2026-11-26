@@ -3,7 +3,6 @@ import { Head } from '@inertiajs/vue3';
 </script>
 
 <template>
-
     <Head title="Mentions légales" />
 
     <main class="mx-auto max-w-2xl p-6">
@@ -11,10 +10,10 @@ import { Head } from '@inertiajs/vue3';
 
         <h2 class="mt-6 text-xl font-semibold">Éditeur du site</h2>
         <p class="mt-2">
-            Cette application est un projet scolaire réalisé par Mathias Malo et Wassim Bourhanzour, étudiants au BES
-            Web Developer de l'IFOSUP Wavre, dans
-            le cadre du cours Projet web dynamique. Elle ne poursuit aucun but
-            commercial.
+            Cette application est un projet scolaire réalisé par Mathias Malo et
+            Wassim Bourhanzour, étudiants au BES Web Developer de l'IFOSUP
+            Wavre, dans le cadre du cours Projet web dynamique. Elle ne poursuit
+            aucun but commercial.
         </p>
 
         <h2 class="mt-6 text-xl font-semibold">Contact</h2>
