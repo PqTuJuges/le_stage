@@ -8,8 +8,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::inertia('dashboard', 'Dashboard')->name('dashboard');
 });
 
-Route::inertia('mentions-legales', 'public/Legal')->name('legal');
-Route::inertia('a-propos', 'public/About')->name('about');
+Route::inertia('mentions-legales', 'Legal')->name('legal');
+Route::inertia('a-propos', 'About')->name('about');
 
 /*Route::middleware(['auth', 'verified'])->prefix('admin')->name('admin.')->group(function () {
     // Admin routes (/stages, /stages/creer, stages/{id}, /stagiaires/creer, tableau-de-bord, )
