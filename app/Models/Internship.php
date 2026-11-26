@@ -2,11 +2,12 @@
 
 namespace App\Models;
 
+use Database\Factories\InternshipFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Internship extends Model
 {
-    /** @use HasFactory<\Database\Factories\InternshipFactory> */
+    /** @use HasFactory<InternshipFactory> */
     use HasFactory;
 }

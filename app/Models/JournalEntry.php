@@ -2,11 +2,12 @@
 
 namespace App\Models;
 
+use Database\Factories\JournalEntryFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class JournalEntry extends Model
 {
-    /** @use HasFactory<\Database\Factories\JournalEntryFactory> */
+    /** @use HasFactory<JournalEntryFactory> */
     use HasFactory;
 }
